@@ -1,0 +1,86 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   }
+   html{
+     scroll-behavior: smooth;
+   }
+   body {
+     background-color: rgb(255, 255, 255);
+   }
+   .head {
+     margin-top: 1rem;
+   }
+   .box {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 3rem;
+   }
+   .form {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     background-color: white;
+     width: 600px;
+     height: 500px;
+     box-shadow: 2px 4px 10px gray;
+     border: 3px solid black;
+     border-radius: 8px;
+     padding: 20px;
+   }
+   .input {
+     padding: 10px 15px;
+     border: 2px solid black;
+     font-size: 15px;
+     outline: none;
+     border-radius: 10px;
+     background-color: rgba(0, 0, 0, 0.02);
+   }
+   label {
+     font-size: 18px;
+     letter-spacing: 1.4px;
+   }
+   .tableForm {
+     margin-top: 10px;
+   }
+   .btn {
+     background-color: orange;
+     color: white;
+     padding: 8px 30px;
+     font-size: large;
+     font-weight: bold;
+     border-radius: 8px;
+     cursor: pointer;
+     transition: 0.15s;
+   }
+
+   .btn:active {
+     background-color: rgb(254, 196, 88);
+   }
+   
+   .btn:hover {
+     box-shadow: 1px 5px 8px rgb(247, 190, 83);
+   }
+
+   input:invalid:focus {
+     border: 2px solid red;
+   }
+   
+   .table {
+     border: 2px solid black;
+     margin: 40px auto;
+   }
+   
+   .td,
+   .th {
+     padding: 10px;
+     text-align: center;
+   }
+   
+   .subHead {
+     text-align: center;
+     margin-top: 2rem;
+   }
